@@ -1,13 +1,13 @@
-group = "app.rushiranpise.morphe-patches"
+group = "app.hoanggleee.gmailmorphe"
 
 patches {
     about {
-        name = "Doom's Morphe Patches"
-        description = "New mask, same task. All patches answer to Doom."
-        source = "https://github.com/rushiranpise/morphe-patches"
-        author = "rushiranpise"
-        contact = "https://github.com/rushiranpise"
-        website = "https://morphe.software/add-source?github=rushiranpise/morphe-patches"
+        name = "Gmail Morphe (Experimental)"
+        description = "Experimental Gmail registration; no Gmail GmsCore or FCM patch yet."
+        source = "https://github.com/HOANGGLEEE/Gmail-morphe"
+        author = "HOANGGLEEE"
+        contact = "https://github.com/HOANGGLEEE/Gmail-morphe/issues"
+        website = "https://morphe.software/add-source?github=HOANGGLEEE/Gmail-morphe"
         license = "GPLv3"
     }
 }

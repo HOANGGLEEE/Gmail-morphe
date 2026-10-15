@@ -6,6 +6,21 @@ import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.SupportedAbi
 
 object Constants {
+    // Gmail is listed only to test Morphe source discovery, not Google sign-in or FCM.
+    val GMAIL_COMPATIBILITY = Compatibility(
+        name = "Gmail",
+        packageName = "com.google.android.gm",
+        description = "Experimental listing only; GmsCore and notifications are NOT patched.",
+        appIconColor = 0xEA4335,
+        targets = listOf(
+            AppTarget(
+                version = null,
+                isExperimental = true,
+                description = "Experimental entry. No Gmail functionality is modified."
+            )
+        )
+    )
+
 
 val AAAD_COMPATIBILITY = Compatibility(
         name = "AAAD",

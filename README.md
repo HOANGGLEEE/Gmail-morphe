@@ -2,7 +2,21 @@
 <img src="patches-bundle.png" width="190">
 </p>
 
-# 👋🧩 Doom's Morphe Patches
+# Gmail Morphe — Experimental
+
+> **Trạng thái:** Bước 1 chỉ thêm Gmail (`com.google.android.gm`) vào danh sách ứng dụng của nguồn patch. Patch `Gmail registration (experimental)` **không thay đổi Gmail**, không kích hoạt GmsCore support, không sửa đăng nhập/FCM và không khắc phục thông báo chậm.
+>
+> **An toàn:** Không cài APK Gmail được ký lại lên máy đang sử dụng; việc ký lại có thể gây lỗi đăng nhập, đồng bộ hoặc không cập nhật được bản từ Google Play.
+>
+> Repo này kế thừa mã nguồn từ [rushiranpise/morphe-patches](https://github.com/rushiranpise/morphe-patches) và giữ nguyên giấy phép GPL-3.0. Danh sách patch kế thừa bên dưới chưa phản ánh bản vá Gmail cho đến khi nguồn này có release riêng.
+
+**Thêm nguồn sau khi tạo bản phát hành riêng:** [Add source to Morphe](https://morphe.software/add-source?github=HOANGGLEEE/Gmail-morphe).
+
+**Build thủ công trên Windows:** `gradlew.bat buildAndroid` (cần JDK và quyền truy cập gói Morphe trên GitHub Packages). Kết quả dự kiến: `patches/build/libs/patches-*.mpp`.
+
+## Tài liệu upstream (giữ lại để tham khảo)
+
+# 👋🧩 Doom's Morphe Patches (upstream)
 <p align="center">
 
 ![GitHub Release](https://img.shields.io/github/v/release/rushiranpise/morphe-patches?style=for-the-badge)
@@ -73,7 +87,7 @@ Before requesting a patch:
 
 ## How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=rushiranpise/morphe-patches
+Upstream source (separate from this experimental Gmail source): https://morphe.software/add-source?github=rushiranpise/morphe-patches
 
 Or manually add this repository URL as a patch source in Morphe: https://github.com/rushiranpise/morphe-patches
 
