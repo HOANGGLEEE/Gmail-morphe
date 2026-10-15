@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -1586,14 +1586,19 @@
         {
           "packageName": "com.google.android.gm",
           "name": "Gmail",
-          "description": "Experimental Gmail patches. GmsCore metadata only; login, sync and FCM are unverified.",
-          "apkFileType": null,
+          "description": "GmsCore Manifest metadata research only; no DEX/auth/FCM patch.",
+          "apkFileType": "APK",
           "appIconColor": "#EA4335",
           "signatures": null,
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "2026.09.28.994593356.Release",
+              "versionCodes": {
+                "ARM64_V8A": 66072052,
+                "ARMEABI_V7A": 66072052,
+                "X86_64": 66072052,
+                "X86": 66072052
+              },
               "isExperimental": true,
               "minSdk": null,
               "description": null

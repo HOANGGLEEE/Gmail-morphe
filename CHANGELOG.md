@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.2...v1.2.0) (2026-10-15)
+
+### ✨ New Features
+
+* scope Gmail GmsCore experiment to 2026.09.28 build ([469084f](https://github.com/HOANGGLEEE/Gmail-morphe/commit/469084f8b0c517058ad4f517973224d43bf06769))
+
 ## [1.1.2](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.1...v1.1.2) (2026-10-15)
 
 ### 🐛 Bug Fixes

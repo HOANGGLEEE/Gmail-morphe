@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.1.2** (`main`) · **319 patches** across **228 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.2.0** (`main`) · **319 patches** across **228 apps** · back to [README](README.md)
 
 ---
 
@@ -826,6 +826,8 @@
 ---
 
 ## Gmail (com.google.android.gm)
+
+**Supported versions:** `experimental 2026.09.28.994593356.Release`
 
 | Patch | Details |
 |---|---|
