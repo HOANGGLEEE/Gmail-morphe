@@ -1,12 +1,14 @@
 name: Release
 
 on:
-  # Bootstrap the first run in a new repository; ordinary pushes do not auto-release.
+  # Trigger on workflow changes and experimental Gmail patch changes only.
   push:
     branches:
       - main
     paths:
       - '.github/workflows/release.yml'
+      # Publish only when the experimental Gmail patch source changes.
+      - 'patches/src/main/kotlin/app/template/patches/gmail/**'
   workflow_dispatch:
   # workflow_run:
   #   workflows:

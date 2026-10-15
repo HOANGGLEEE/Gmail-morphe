@@ -4,13 +4,15 @@
 
 # Gmail Morphe — Experimental
 
-> **Trạng thái:** Bước 1 chỉ thêm Gmail (`com.google.android.gm`) vào danh sách ứng dụng của nguồn patch. Patch `Gmail registration (experimental)` **không thay đổi Gmail**, không kích hoạt GmsCore support, không sửa đăng nhập/FCM và không khắc phục thông báo chậm.
+> **Trạng thái:** Giai đoạn 2 có `Gmail registration (experimental)` (không sửa APK) và `Gmail GmsCore metadata (experimental)` (chỉ sửa Manifest, **không sửa DEX**). Cả hai đều tắt mặc định. **Chưa có GmsCore support đầy đủ cho Gmail; chưa sửa đăng nhập, đồng bộ hoặc thông báo FCM.**
 >
 > **An toàn:** Không cài APK Gmail được ký lại lên máy đang sử dụng; việc ký lại có thể gây lỗi đăng nhập, đồng bộ hoặc không cập nhật được bản từ Google Play.
 >
 > Repo này kế thừa mã nguồn từ [rushiranpise/morphe-patches](https://github.com/rushiranpise/morphe-patches) và giữ nguyên giấy phép GPL-3.0. Danh sách patch kế thừa bên dưới chưa phản ánh bản vá Gmail cho đến khi nguồn này có release riêng.
 
-**Thêm nguồn sau khi tạo bản phát hành riêng:** [Add source to Morphe](https://morphe.software/add-source?github=HOANGGLEEE/Gmail-morphe).
+**Thêm nguồn sau khi bản phát hành riêng được tạo:** [Add source to Morphe](https://morphe.software/add-source?github=HOANGGLEEE/Gmail-morphe).
+
+**Đọc trước khi thử:** [Kiểm thử Gmail GmsCore](docs/GMAIL_GMSCORE_TESTING.md).
 
 **Build thủ công trên Windows:** `gradlew.bat buildAndroid` (cần JDK và quyền truy cập gói Morphe trên GitHub Packages). Kết quả dự kiến: `patches/build/libs/patches-*.mpp`.
 
