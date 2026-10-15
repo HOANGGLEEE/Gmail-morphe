@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.0...v1.1.1) (2026-10-15)
+
+### 🐛 Bug Fixes
+
+* preserve experimental patch bundle as Actions artifact ([c911b17](https://github.com/HOANGGLEEE/Gmail-morphe/commit/c911b17c94af0a56576871374ffd02a64b3a4f45))
+
 ## [1.1.0](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.0.0...v1.1.0) (2026-10-15)
 
 ### ✨ New Features
