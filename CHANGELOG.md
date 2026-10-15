@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.1...v1.1.2) (2026-10-15)
+
+### 🐛 Bug Fixes
+
+* remove nonexistent dev branch backmerge from release ([075c172](https://github.com/HOANGGLEEE/Gmail-morphe/commit/075c1723f483e28368e989c1957343793bb06344))
+
 ## [1.1.1](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.0...v1.1.1) (2026-10-15)
 
 ### 🐛 Bug Fixes

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-15T07:45:49",
-  "description": "## [1.1.1](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.0...v1.1.1) (2026-10-15)\n\n### 🐛 Bug Fixes\n\n* preserve experimental patch bundle as Actions artifact ([c911b17](https://github.com/HOANGGLEEE/Gmail-morphe/commit/c911b17c94af0a56576871374ffd02a64b3a4f45))",
-  "download_url": "https://github.com/HOANGGLEEE/Gmail-morphe/releases/download/v1.1.1/patches-1.1.1.mpp",
+  "created_at": "2026-10-15T07:49:41",
+  "description": "## [1.1.2](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.1.1...v1.1.2) (2026-10-15)\n\n### 🐛 Bug Fixes\n\n* remove nonexistent dev branch backmerge from release ([075c172](https://github.com/HOANGGLEEE/Gmail-morphe/commit/075c1723f483e28368e989c1957343793bb06344))",
+  "download_url": "https://github.com/HOANGGLEEE/Gmail-morphe/releases/download/v1.1.2/patches-1.1.2.mpp",
   "signature_download_url": "",
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
