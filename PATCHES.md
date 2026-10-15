@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.0.0** (`main`) · **318 patches** across **228 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.1.0** (`main`) · **319 patches** across **228 apps** · back to [README](README.md)
 
 ---
 
@@ -829,6 +829,7 @@
 
 | Patch | Details |
 |---|---|
+| **Gmail GmsCore metadata (experimental)** | Adds MicroG/GmsCore visibility and signature-spoof metadata to Gmail's Manifest only. Does NOT support login, sync or push notifications yet. Do NOT install over your normal Gmail.<br><sub>Options: GmsCore package</sub> |
 | **Gmail registration (experimental)** | Lists Gmail for research only. No GmsCore, login, sync, or FCM changes. Do not install a re-signed Gmail APK to fix notifications. |
 
 ---

@@ -109,7 +109,7 @@ Bug reports must include:
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.0.0](https://github.com/HOANGGLEEE/Gmail-morphe/releases/tag/v1.0.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**318 patches** across **228 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.1.0](https://github.com/HOANGGLEEE/Gmail-morphe/releases/tag/v1.1.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**319 patches** across **228 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
@@ -193,7 +193,7 @@ Bug reports must include:
 | 78 | [**Flud**](PATCHES.md#flud-comdelphicoderflud) | 1 | `2.1.2` | [`com.delphicoder.flud`](https://play.google.com/store/apps/details?id=com.delphicoder.flud) |
 | 79 | [**Fuelio**](PATCHES.md#fuelio-comkajdafuelio) | 1 | `10.3.4` | [`com.kajda.fuelio`](https://play.google.com/store/apps/details?id=com.kajda.fuelio) |
 | 80 | [**Genius Scan**](PATCHES.md#genius-scan-comthegrizzlylabsgeniusscanfree) | 1 | `7.41.0` | [`com.thegrizzlylabs.geniusscan.free`](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free) |
-| 81 | [**Gmail**](PATCHES.md#gmail-comgoogleandroidgm) | 1 | — | [`com.google.android.gm`](https://play.google.com/store/apps/details?id=com.google.android.gm) |
+| 81 | [**Gmail**](PATCHES.md#gmail-comgoogleandroidgm) | 2 | — | [`com.google.android.gm`](https://play.google.com/store/apps/details?id=com.google.android.gm) |
 | 82 | [**Google Photos**](PATCHES.md#google-photos-comgoogleandroidappsphotos) | 7 | `7.97.0.997578476` | [`com.google.android.apps.photos`](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) |
 | 83 | [**Greenify**](PATCHES.md#greenify-comoasisfenggreenify) | 1 | `5.1.1` | [`com.oasisfeng.greenify`](https://play.google.com/store/apps/details?id=com.oasisfeng.greenify) |
 | 84 | [**HD UHD Live Wallpapers**](PATCHES.md#hd-uhd-live-wallpapers-hduhdlivewallpaperstopwallpapers) | 1 | `6.1.1` | [`hd.uhd.live.wallpapers.topwallpapers`](https://play.google.com/store/apps/details?id=hd.uhd.live.wallpapers.topwallpapers) |

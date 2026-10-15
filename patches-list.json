@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -1576,6 +1576,47 @@
       "options": []
     },
     {
+      "name": "Gmail GmsCore metadata (experimental)",
+      "description": "Adds MicroG/GmsCore visibility and signature-spoof metadata to Gmail's Manifest only. Does NOT support login, sync or push notifications yet. Do NOT install over your normal Gmail.",
+      "default": false,
+      "dependencies": [
+        "RawResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.gm",
+          "name": "Gmail",
+          "description": "Experimental Gmail patches. GmsCore metadata only; login, sync and FCM are unverified.",
+          "apkFileType": null,
+          "appIconColor": "#EA4335",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "gmailGmsCorePackage",
+          "title": "GmsCore package",
+          "description": "Must match the package name of GmsCore installed on the test device.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "app.revanced.android.gms",
+          "values": {
+            "MicroG RE (app.revanced.android.gms)": "app.revanced.android.gms",
+            "Morphe GmsCore (app.morphe.android.gms)": "app.morphe.android.gms"
+          }
+        }
+      ]
+    },
+    {
       "name": "Gmail registration (experimental)",
       "description": "Lists Gmail for research only. No GmsCore, login, sync, or FCM changes. Do not install a re-signed Gmail APK to fix notifications.",
       "default": false,
@@ -1584,7 +1625,7 @@
         {
           "packageName": "com.google.android.gm",
           "name": "Gmail",
-          "description": "Experimental listing only; GmsCore and notifications are NOT patched.",
+          "description": "Experimental Gmail patches. GmsCore metadata only; login, sync and FCM are unverified.",
           "apkFileType": null,
           "appIconColor": "#EA4335",
           "signatures": null,

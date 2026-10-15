@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/HOANGGLEEE/Gmail-morphe/compare/v1.0.0...v1.1.0) (2026-10-15)
+
+### ✨ New Features
+
+* add Gmail-only experimental GmsCore manifest metadata patch ([9f77b77](https://github.com/HOANGGLEEE/Gmail-morphe/commit/9f77b77cb9c15f703e247c27cf9532da4f40c059))
+
 ## 1.0.0 (2026-10-15)
 
 ### 🐛 Bug Fixes
