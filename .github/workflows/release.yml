@@ -80,3 +80,11 @@ jobs:
           NETMONSTER_MAPS_API_KEY: ${{ secrets.NETMONSTER_MAPS_API_KEY }}
           SHARED_MAPS_API_KEY: ${{ secrets.SHARED_MAPS_API_KEY }}
         run: ./gradlew :patches:buildAndroid clean --no-daemon
+      # Keep the compiled MPP accessible if semantic-release cannot publish.
+      - name: Upload experimental patch bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gmail-morphe-${{ github.run_id }}-${{ github.run_attempt }}
+          path: patches/build/libs/patches-*.mpp
+          if-no-files-found: warn
