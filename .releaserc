@@ -11,11 +11,27 @@
       "@semantic-release/commit-analyzer",
       {
         "releaseRules": [
-          { "type": "fix", "release": "patch" },
-          { "type": "feat", "release": "minor" },
-          { "type": "bump", "release": "patch" },
-          { "type": "perf", "release": "patch" },
-          { "type": "build", "scope": "Needs bump", "release": "patch" }
+          {
+            "type": "fix",
+            "release": "patch"
+          },
+          {
+            "type": "feat",
+            "release": "minor"
+          },
+          {
+            "type": "bump",
+            "release": "patch"
+          },
+          {
+            "type": "perf",
+            "release": "patch"
+          },
+          {
+            "type": "build",
+            "scope": "Needs bump",
+            "release": "patch"
+          }
         ]
       }
     ],
@@ -25,11 +41,30 @@
         "preset": "conventionalcommits",
         "presetConfig": {
           "types": [
-            { "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },
-            { "type": "feat", "section": "✨ New Features", "hidden": false },
-            { "type": "bump", "section": "🚀 Updated App Support", "hidden": false },
-            { "type": "perf", "section": "🔧 Improvements",  "hidden": false },
-            { "type": "build", "hidden": true }
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes",
+              "hidden": false
+            },
+            {
+              "type": "feat",
+              "section": "✨ New Features",
+              "hidden": false
+            },
+            {
+              "type": "bump",
+              "section": "🚀 Updated App Support",
+              "hidden": false
+            },
+            {
+              "type": "perf",
+              "section": "🔧 Improvements",
+              "hidden": false
+            },
+            {
+              "type": "build",
+              "hidden": true
+            }
           ]
         }
       }
@@ -84,13 +119,6 @@
           }
         ],
         "successComment": false
-      }
-    ],
-    [
-      "@cleyrop-org/semantic-release-backmerge",
-      {
-        "backmergeBranches": [{ "from": "main", "to": "dev" }],
-        "clearWorkspace": true
       }
     ]
   ]
