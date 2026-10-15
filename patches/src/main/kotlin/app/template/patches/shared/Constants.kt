@@ -22,6 +22,24 @@ object Constants {
     )
 
 
+    // Version identified from APKMirror (not yet tested with an original Gmail APK).
+    // Keep the GmsCore experiment strictly version-scoped; do NOT claim FCM works.
+    val GMAIL_GMSCORE_COMPATIBILITY = Compatibility(
+        name = "Gmail",
+        packageName = "com.google.android.gm",
+        description = "GmsCore Manifest metadata research only; no DEX/auth/FCM patch.",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0xEA4335,
+        targets = listOf(
+            AppTarget(
+                version = "2026.09.28.994593356.Release",
+                versionCode = 66072052,
+                isExperimental = true,
+            )
+        )
+    )
+
+
 val AAAD_COMPATIBILITY = Compatibility(
         name = "AAAD",
         packageName = "sksa.aa.customapps",

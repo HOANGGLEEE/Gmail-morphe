@@ -2,7 +2,7 @@ package app.template.patches.gmail
 
 import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patcher.patch.stringOption
-import app.template.patches.shared.Constants.GMAIL_COMPATIBILITY
+import app.template.patches.shared.Constants.GMAIL_GMSCORE_COMPATIBILITY
 import app.template.patches.shared.cert.autoSha1
 import app.template.patches.shared.cert.extractApkCertificatePatch
 import org.w3c.dom.Element
@@ -12,6 +12,8 @@ private const val GMAIL_PACKAGE = "com.google.android.gm"
 /**
  * Experimental, Gmail-scoped GmsCore manifest metadata ONLY.
  *
+ * Only targets Gmail 2026.09.28.994593356.Release (versionCode 66072052).
+ * Target was identified from public distribution metadata and is NOT yet tested.
  * This intentionally does NOT rewrite DEX references, spoof Play Integrity,
  * bypass login checks, replace GMS, or modify FCM token registration.
  * The universal GmsCore bytecode patch must NOT be selected together with this
@@ -23,7 +25,7 @@ val gmailGmsCoreMetadataPatch = resourcePatch(
     description = "Adds MicroG/GmsCore visibility and signature-spoof metadata to Gmail's Manifest only. Does NOT support login, sync or push notifications yet. Do NOT install over your normal Gmail.",
     default = false,
 ) {
-    compatibleWith(GMAIL_COMPATIBILITY)
+    compatibleWith(GMAIL_GMSCORE_COMPATIBILITY)
 
     val targetGmsCorePackage by stringOption(
         key = "gmailGmsCorePackage",

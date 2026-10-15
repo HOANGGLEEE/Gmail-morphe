@@ -12,6 +12,8 @@
 
 **Thêm nguồn sau khi bản phát hành riêng được tạo:** [Add source to Morphe](https://morphe.software/add-source?github=HOANGGLEEE/Gmail-morphe).
 
+**Đã khoanh vùng phiên bản Gmail thử nghiệm:** `2026.09.28.994593356.Release` (`versionCode 66072052`), nhưng chưa phân tích APK gốc, chưa xác nhận đăng nhập và FCM.
+
 **Đọc trước khi thử:** [Kiểm thử Gmail GmsCore](docs/GMAIL_GMSCORE_TESTING.md).
 
 **Build thủ công trên Windows:** `gradlew.bat buildAndroid` (cần JDK và quyền truy cập gói Morphe trên GitHub Packages). Kết quả dự kiến: `patches/build/libs/patches-*.mpp`.
