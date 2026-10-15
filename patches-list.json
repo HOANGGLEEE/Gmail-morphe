@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.23.0",
+  "version": "1.0.0",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -1573,6 +1573,32 @@
         "RawResourcePatch"
       ],
       "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "Gmail registration (experimental)",
+      "description": "Lists Gmail for research only. No GmsCore, login, sync, or FCM changes. Do not install a re-signed Gmail APK to fix notifications.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.gm",
+          "name": "Gmail",
+          "description": "Experimental listing only; GmsCore and notifications are NOT patched.",
+          "apkFileType": null,
+          "appIconColor": "#EA4335",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {

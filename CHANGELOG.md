@@ -1,3 +1,14 @@
+## 1.0.0 (2026-10-15)
+
+### 🐛 Bug Fixes
+
+* bootstrap Release workflow discovery on main ([3d0d144](https://github.com/HOANGGLEEE/Gmail-morphe/commit/3d0d144b1d54024c3bc7ea7ba558af97edf0b5bf))
+* mark Gradle wrapper executable in release workflow ([5f3eadc](https://github.com/HOANGGLEEE/Gmail-morphe/commit/5f3eadce754c1f00e2cb7691cad218ef3e4eff41))
+
+### ✨ New Features
+
+* register Gmail as an experimental Morphe app target ([3b859fe](https://github.com/HOANGGLEEE/Gmail-morphe/commit/3b859fe7d040dd01e6d45493e4587a76bc66e328))
+
 ## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)
 
 ### 🐛 Bug Fixes

@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.23.0** (`main`) · **317 patches** across **227 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.0.0** (`main`) · **318 patches** across **228 apps** · back to [README](README.md)
 
 ---
 
@@ -822,6 +822,14 @@
 | Patch | Details |
 |---|---|
 | **Unlock Ultra** | Unlocks Ultra features in app. |
+
+---
+
+## Gmail (com.google.android.gm)
+
+| Patch | Details |
+|---|---|
+| **Gmail registration (experimental)** | Lists Gmail for research only. No GmsCore, login, sync, or FCM changes. Do not install a re-signed Gmail APK to fix notifications. |
 
 ---
 
